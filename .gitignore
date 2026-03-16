@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+bin/
+obj/
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+frontend/.env.local
+backend/src/InvoiceApp.Api/appsettings.Development.json
+
+# IDE files
+.vs/
+.vscode/settings.json
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
